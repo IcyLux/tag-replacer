@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+@use '@angular/material' as mat;
+
+@include mat.core();
+
+$tag-replacer-primary: mat.define-palette(mat.$blue-palette);
+$tag-replacer-accent: mat.define-palette(mat.$yellow-palette);
+
+$tag-replacer-theme: mat.define-light-theme(
+    (
+        color: (
+            primary: $tag-replacer-primary,
+            accent: $tag-replacer-accent,
+        ),
+    )
+);
+
+@include mat.all-component-themes($tag-replacer-theme);
+
+html, 
+body { 
+    height: 100%; 
+}
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+}
+

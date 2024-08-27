@@ -1,0 +1,41 @@
+html {
+    text-align: center;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.text-field {
+    min-width: 10%;
+    max-width: 100%;
+    padding: 3px;
+}
+
+.table-wrapper {
+    margin-top: 5px;
+    padding: 3px;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+}
+
+.table {
+    min-width: 10%;
+    max-width: 100%;
+}
+
+.output-wrapper {
+    margin-top: 5px;
+    padding: 3px;
+}
+
+.replace-button {
+    margin-bottom: 1px;
+}
+
+.form-field-in-table {
+    padding: 5px;
+}
