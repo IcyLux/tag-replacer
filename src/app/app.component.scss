@@ -5,6 +5,10 @@ html {
     margin-right:auto;
 }
 
+.title {
+    margin-top: 8px;
+}
+
 .text-field {
     min-width: 10%;
     max-width: 100%;
@@ -12,7 +16,7 @@ html {
 }
 
 .table-wrapper {
-    margin-top: 5px;
+    margin-top: 8px;
     padding: 3px;
 }
 
@@ -20,6 +24,7 @@ html {
     display: flex;
     justify-content: center;
     column-gap: 5px;
+    margin-top: 8px;
 }
 
 .table {
@@ -28,12 +33,13 @@ html {
 }
 
 .output-wrapper {
-    margin-top: 5px;
+    margin-top: 8px;
     padding: 3px;
 }
 
 .replace-button {
-    margin-bottom: 1px;
+    margin-top: 8px;
+    margin-bottom: 5px;
 }
 
 .form-field-in-table {
